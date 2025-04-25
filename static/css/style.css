@@ -1,0 +1,15 @@
+/* style.css */
+
+body {
+    font-family: 'Papyrus', fantasy;
+    color: #4d004d;
+    background-color: #d15bcf;
+    padding: 20px;
+    border-style: outset;
+    text-align: center;
+
+}
+
+#feed {
+    margin-top: 30px;
+}
