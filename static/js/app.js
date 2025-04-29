@@ -1,4 +1,7 @@
-const username = "admin";
+let username = localStorage.getItem("username");
+if (!username) {
+  window.locatioh.href = "/login";
+}
 
 function renderPost(post, isNew = false) {
   const template = document
@@ -23,7 +26,7 @@ async function submitPost() {
       },
       body: JSON.stringify({
         username: username,
-        message: message,
+        message: message,ss
       }),
     });
     if (response.ok) {
